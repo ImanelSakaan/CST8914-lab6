@@ -1,12 +1,16 @@
 #column1 {
-    column-span: 3;
+    width: 100%;
 }
 span {
     color: blue;
 }
-table {
-    border: 1px solid black;
-}
 #contentc {
     width: 70%;
+}
+td {
+    padding-right: 10px;
+    border: 1px solid black;
+}
+tr {
+    width:1 00%;
 }
