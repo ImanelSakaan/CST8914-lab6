@@ -30,6 +30,9 @@
     margin :50px ;
 	    
 }
+a {
+      color: blue;
+    }
 
 table {
   border-collapse: collapse;
@@ -43,8 +46,7 @@ th,td {
 </head>
 
 <body>
-
-	</div>
+	<div id="wrapper">
 	<div> <!-- start of header-->
 			
 		<div class="app-bar">
@@ -86,21 +88,22 @@ th,td {
 	</div> <!-- end of header-->
 
 	<main property="mainContentOfPage" class="container">
+		<div class="row">
 		<table>
 			<Tr>
-				<h3>Content A <small></small></h3>
+				Content A
 				<br>
 				<b>Hi/Max Real Estate & Houses</b>
                 <br>
 				Buying or selling a home is likely the largest and most important transaction you’ll ever make. That’s why so many trust Hi/MAX Real Estate, which according to Canadian consumers, has been voted #1 Most Trusted Real Estate Agents in Canada six times in a row.
-                    <br>
-                    <span><a href="#">Lets get started</a></span>
+				<br>
+				<span><a href="#">Lets get started</a></span>
 			</Tr>
 
 			<tr>
-				
+			<div class="row">
 				<td colspan="2">
-					<div class="col-md-12 pull-right">
+					<div class="col-md-12  pull-right">
 						Content C
 						<br>
 						<b>Why choosing HI/Max</b>
@@ -108,7 +111,7 @@ th,td {
 							Hi/Max agents go above and beyond and always strive to be the best they can be. HI/MAX is extremely community focused, and our agents are too!
 							<br>
 							<b>Stats of HI/Max</b>
-						<table border="1" style="table-layout: fixed; width: 90%;" >
+						<table border="1" style="width: 90%;" >
 								<thead>
 								<tr style="background-color:black ; color: white;">
 									<th></th>
@@ -156,8 +159,10 @@ th,td {
 							<a href="#">•	How much is your current home worth?</a>					
 					</div>
 				</td>
+			</div>
 			</tr>
 			<tr>
+				<div class="row">
 				<td>
 					<div class="col-md-8">
 					<img src="1.png" alt="">
@@ -188,22 +193,19 @@ th,td {
 						Content H
 					</div>
 				</td>
-			</div>
+				</div>
 			</tr>
-			
-		</table>
-		
-		
-		
-		
+		</table>	
+		</div>
+
 		<div class="pagedetails">
 			<dl id="wb-dtmd">
 				<dt>Date modified: </dt>
-				<dd><time property="dateModified">2023-10-13</time></dd>
+				<dd><time property="dateModified">2025-02-14</time></dd>
 			</dl>
 		</div>
 
-
+		</div>	
 	</main>
 	<div id="wb-info" class=" wb-navcurr-inited">
 		<div class="gc-sub-footer">
@@ -254,7 +256,7 @@ th,td {
 	<script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_1_0/cdts/cdtscustom.js"></script>
 
 
-
+</div>
 </body>
 
 </html>
